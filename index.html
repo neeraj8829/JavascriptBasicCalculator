@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Using Javascript</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="calculations">
+            <button class="increment" id="increment-num1" onclick="incrementNum1()">+</button>
+            <button class="decrement" id="decrement-num1" onclick="decrementNum1()">-</button>
+    
+            <span id="num1-el">0</span>
+            <span id="num2-el">0</span>
+    
+            <button class="increment" id="increment-num2" onclick="incrementNum2()">+</button>
+            <button class="decrement" id="decrement-num2" onclick="decrementNum2()">-</button>
+            <br/>
+    
+            <div class="container-sum">
+                <p id="result"></p>
+            </div>
+    
+            <div class="container-clear">
+                <button onclick="resetValues()">Clear</button>
+            </div>
+        </div>
+
+
+        
+
+        <div class="button-container">
+            <button onclick="add()">Add</button>
+            <button onclick="subtract()">Subtract</button>
+            <button onclick="multiply()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+        </div>
+
+        <br/>
+
+       
+
+        <div style="height: 200px"></div>
+        <script src="index.js"></script>
+
+    </div>
+</body>
+</html>

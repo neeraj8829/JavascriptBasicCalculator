@@ -1,0 +1,86 @@
+.container {
+    margin: auto;
+    translate: 0 50%;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    border: 1px solid #ccc;
+    border-color: #000;
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(bg.jpeg);
+}
+
+span {
+    margin-right: 20px;
+}
+
+#num1-el, #num2-el {
+    font-size: 20px;
+    color: #fff;
+}
+
+#sum-el {
+    
+    font-size: 20px;
+}
+
+.container-sum {
+    margin-top: 30px;
+}
+
+.container-clear button{
+    border-radius: 0;
+    width: 20%;
+    height: auto;
+    padding: 2px 3px;
+}
+
+.calculations {
+    background-color: #333;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#result {
+    color: #fff;
+    font-size: 30px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.increment ,.decrement{
+    border-radius: 0;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.decrement {
+    margin-right: 20px;
+}
+
+
+
+button {
+    border: 1px solid #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
